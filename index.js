@@ -12,6 +12,9 @@ class LessHintPlugin {
 		this.lessOptions = this._getLessOptions( options.configFile );
 		this.reporter = options.reporter || LessHintReporterStylish;
 
+		if( options.linters ) {
+			this.lessOptions.linters = options.linters;
+		}
 	}
 
 	apply(compiler) {

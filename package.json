@@ -1,6 +1,6 @@
 {
   "name": "lesshint-extra-webpack-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lesshint plugin for webpack",
   "main": "index.js",
   "scripts": {
