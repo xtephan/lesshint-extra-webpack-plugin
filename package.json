@@ -1,0 +1,33 @@
+{
+  "name": "lesshint-extra-webpack-plugin",
+  "version": "0.0.1",
+  "description": "Lesshint plugin for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtephan/lesshint-extra-webpack-plugin"
+  },
+  "keywords": [
+    "lesshint",
+    "less",
+    "hint",
+    "lint",
+    "webpack"
+  ],
+  "author": "Stefan Fodor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xtephan/lesshint-extra-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/xtephan/lesshint-extra-webpack-plugin",
+  "peerDependencies": {
+    "lesshint": "^3.2.0"
+  },
+  "dependencies": {
+    "glob-all": "^3.1.0",
+    "lesshint-reporter-stylish": "1.0.0"
+  }
+}

@@ -9,14 +9,15 @@ class LessHintPlugin {
 
 		this.failOnError = !!options.failOnError;
 		this.files = options.files || [];
-		this.cf = options.configFile;
 		this.lessOptions = this._getLessOptions( options.configFile );
 		this.reporter = options.reporter || LessHintReporterStylish;
 
 	}
 
 	apply(compiler) {
+		
 		compiler.plugin('run', this._onCompilerRun.bind(this));
+
 	}
 
 	_getLessOptions( filePath ) {
